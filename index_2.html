@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--conectar a CSS-->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- fuentes de google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&family=Patrick+Hand+SC&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Nonnas and family restaurant</title>
+
+    <body>
+      <div id="grilla">
+
+        <header class="header_container">
+          <section class="header_content_container">
+            <div class="logo_container">
+              <img 
+                class="img_logo" src="images/nonnas_cream.png" alt="logo" 
+              />
+            </div>
+              <nav class="menu_list_container">
+                <ul class="menu_list">
+                  <li><a href="index.html"> HOME </a></li>
+                  <li><a href="pages/about_us.html"> ABOUT US </a></li>
+                  <li><a href="pages/menu.html"> MENU </a></li>
+                  <li><a href="pages/catering.html"> CATERING </a></li>
+                  <li><a href="pages/contact_us.html"> CONTACT US </a></li>
+                </ul>
+              </nav>
+          </section>
+        </header>
+
+        <main class="main_container">
+
+          <div class="main_img_container">
+            <img
+            class="main_img_1"
+            src="images/pastry_1280px.jpg"
+            alt="Imagen_de_comida"
+          />
+          </div>
+
+          <div class="intro_container">
+            <h3 class="weare"> We are Nonna's & Family</h3>
+            <p class="brief">
+              At Nonnas & family, we are dedicated to all things seasonal with a
+              market-driven day-time menu that also offers a variety of artisan
+              breads and pastries made daily with locally-sourced, heirloom grains
+            </p>
+            <a class="button_container" href="pages/menu.html" ><button class="button">Order Online</button> </a>
+          </div>
+
+          <div class="br_container">
+            <section class="br_text_container">
+              <h3 class="title_br">Bakery & Restaurant</h3>
+              <p class="description_br">
+                Currently open for dine in, take out & delivery
+              </p>
+              <a class="button_br" href="pages/menu.html" ><button class="button"> View Menu</button> </a>
+            </section>
+
+            <section class="br_img_container">
+              <img
+              class="br_img_1"
+              src="images/pastry_767px.jpg"
+              alt="Imagen_de_comida"
+            />
+            </section>
+          </div>
+
+          <div class="mc_container">
+            <section class="mc_text_container">
+              <h3 class="title_mc">Cafe with fresh baked goods</h3>
+              <p class="description_mc">
+                Stock up on bread, pastries, and grab n' go salads and sandwiches
+              </p>
+              <a class="button_mc" href="pages/menu.html" ><button class="button"> Order online</button> </a>
+            </section>
+
+            <section class="mc_img_container">
+              <img
+              class="mc_img_1"
+              src="images/cakes_767px.jpg"
+              alt="Imagen_de_comida"
+            />
+            </section>
+          </div>
+
+          <div class="visit_container">
+            
+            <section class="visit_title_container">
+              <h3 class="visit_title">VISIT US</h3>
+            </section>
+
+            <section class="locations_hours_container">
+
+              <section class="visit_locations_container">
+                <h3 class="la_title">LOS ANGELES</h3>
+                <p class="visit_locations">
+                LOS ANGELES
+                5150 Hollywood Blvd,
+                Los Angeles, CA 90027
+                (323) 668-2000
+                </p>
+              </section>
+
+              <section class="cupcake_img_container">
+                <img
+                  class="cupcake_img"
+                  src="images/cupcake logo 3_250px.jpg"
+                  alt="Imagen_de_comida"
+                />
+              </section>
+
+              <section class="visit_hours_container">
+                <h3 class="hours_title">HOURS</h3>
+                <p class="visit_hours">
+                  Mon-Fri:8:00 am - 3:00 pm
+                  Kitchen Closes at 2PM M-F
+                  Sat-Sun:8:00 am - 3:00 pm
+                </p>
+              </section>
+            </section>
+
+          </div>
+
+          <div class="form_container">
+            <form>
+              <section class="form_subcontainer">
+                <h3 class="form_title">SHARE YOUR EXPERIENCE</h3>
+
+                <p class="which_location_container">Which location did you visit?
+                  <select name="locations_list" id="locations_list">
+                    <option value="Los Angeles">Los Angeles</option>
+                    <option value="Miami">Miami</option>
+                    <option value="New York">New York</option>
+                    <option value="Washington D.C">Washington D.C</option>
+                  </select>
+                </p>
+                <p class="how_experience">
+                  How was your experience?
+                </p>
+                <p class="star-rating">
+                  <i class="my-star star-1" data-star="1"></i>
+                  <i class="my-star star-2" data-star="2"></i>
+                  <i class="my-star star-3" data-star="3"></i>
+                  <i class="my-star star-4" data-star="4"></i>
+                  <i class="my-star star-5" data-star="5"></i>
+                </p>
+                <p class="add_review">Add your review
+                  <textarea 
+                    name="textarea" id="textarea" cols="30" rows="10">
+                  </textarea>
+                </p>
+                <p class="enter_email">Enter your email
+                  <label for="Enter your email">
+                    <input class="email"
+                      type="email"
+                      name="email"
+                      id="email"
+                      placeholder="Ej: johndoe@gmail.com"
+                    />
+                  </label>
+                </p>
+                <!-- input submit-->
+                <input class="form_button_container"
+                  type="submit" class="form_button" value="Submit" 
+                />
+              </section>
+            </form>
+          </div>
+
+          <div class="end_img_container">
+            <section class="end_img_2_container">
+              <img
+                class="br_img_2"
+                src="images/cake2_380px.jpg"
+                alt="Imagen_de_comida"
+              />
+            </section>
+            <section class="end_img_3_container">
+              <img
+                class="br_img_3"
+                src="images/cake_380px v2.jpg"
+                alt="Imagen_de_comida"
+              />
+            </section> 
+            <section class="end_img_4_container">
+              <img
+                class="br_img_4"
+                src="images/crossaints_380px.jpg"
+                alt="Imagen_de_comida"
+              />
+            </section> 
+            <section class="end_img_5_container">
+              <img
+                class="br_img_5"
+                src="images/muffins_380px.jpg"
+                alt="Imagen_de_comida"
+              />
+            </section>
+          </div>
+        </main>
+        
+        <footer class="footer_container">
+          <!--listas desordenadas-->
+          <section class="footer_content_container">
+            <div class="locations_container">
+              <h3 class="title_our_locations">
+                Our Locations
+              </h3>
+              <ul class="locations_list">
+                <li>Los Angeles</li>
+                <li>Miami</li>
+                <li>New York</li>
+                <li>Washington D.C</li>
+              </ul>
+            </div>
+
+            <div class="footer_links_container">
+              <h3 class="footer_links">JOIN OUR TEAM</h3>
+              <h3 class="footer_links">CONTACT US</h3>
+            </div>
+            <!-- logo del footer-->
+            <div class="logo_footer_container">
+              <img class="img_logo_footer" src="images/nonnas_cream.png" alt="logo" />
+            </div>
+          </section>
+        </footer>
+        
+
+      </div>
+    </body>
+  </html>
+  
