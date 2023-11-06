@@ -5,13 +5,19 @@
   text-align: center;
   margin:0;
   padding:0;
+  border:0;
+  box-sizing: border-box; 
+ 
 }
+
 
 /*INDEX*/
 #grilla{
+padding:0;
+border:0;
 display:grid;
 width:100%;
-margin:0 auto;
+margin:0;
 grid-template-rows: 100px 10fr 200px;
 grid-template-columns: 25% 25% 25% 25%;
 grid-template-areas: 
@@ -598,7 +604,7 @@ text-decoration: none;
 #grilla_menu{
   display:grid;
   width:100%;
-  margin:0 auto;
+  margin:0;
   grid-template-rows: 100px 30fr 200px;
   grid-template-columns: 25% 25% 25% 25%;
   grid-template-areas: 
@@ -754,9 +760,7 @@ justify-content:center
 
 @media  (max-width:1020px) and (min-width:768px){
 
-  body{
-      background-color:#fb8900;
-  }
+ 
 
   .header_content_container {
     font-size:10px;
@@ -845,9 +849,7 @@ justify-content:center
 
 @media  (max-width:769px) and (min-width:420px){
 
-  body{
-      background-color:#fb00e2;
-  }
+
   
   
   #grilla{
@@ -966,9 +968,7 @@ justify-content:center
 
 @media  (max-width:421px) and (min-width:320px){
 
-    body{
-        background-color:#4ffb00;
-    }
+    
     
     #grilla{
     grid-template-columns: 1fr;
