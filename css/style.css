@@ -12,7 +12,6 @@
 display:grid;
 width:100%;
 margin:0 auto;
-border: 1px solid black;
 grid-template-rows: 100px 10fr 200px;
 grid-template-columns: 25% 25% 25% 25%;
 grid-template-areas: 
@@ -572,10 +571,11 @@ padding:2% 0 2% 0;
  
 }
 
-.footer_links{
+.footer_links a{
 font-size:1em;
 font-weight: bold;
 color:aliceblue;
+text-decoration: none;
 }
 
 
@@ -599,7 +599,6 @@ color:aliceblue;
   display:grid;
   width:100%;
   margin:0 auto;
-  border: 1px solid black;
   grid-template-rows: 100px 30fr 200px;
   grid-template-columns: 25% 25% 25% 25%;
   grid-template-areas: 
@@ -626,7 +625,6 @@ color:aliceblue;
 } 
 .carta_container_2{
   display:flex;
-  
   flex-direction:column;
   align-items: center;
   justify-content: center;
@@ -650,7 +648,6 @@ color:aliceblue;
 /*CATERING*/
 #grilla_catering{
   display:grid;
-
   width:100%;
   margin:0 auto;
   border: 1px solid black;
