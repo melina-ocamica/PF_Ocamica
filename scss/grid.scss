@@ -1,0 +1,14 @@
+/*INDEX*/
+#grilla {
+    padding: 0;
+    border: 0;
+    display: grid;
+    width: 100%;
+    margin: 0;
+    grid-template-rows: 100px 10fr 400px;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-areas:
+      "header header header header"
+      "main main  main  main"
+      "footer footer footer footer";
+  }

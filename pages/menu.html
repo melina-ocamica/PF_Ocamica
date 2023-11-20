@@ -1,306 +1,481 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--conectar a CSS-->
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/main.css" />
     <!-- fuentes de google-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&family=Patrick+Hand+SC&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&family=Patrick+Hand+SC&display=swap"
+      rel="stylesheet"
+    />
+    <link 
+    href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&family=Patrick+Hand+SC&display=swap" 
+    rel="stylesheet"
+  />
     <!-- bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
     <title>Document</title>
-</head>
+  </head>
 
-    <body>
-        <div id="grilla_menu">
-  
-            <header class="header_container">
-                <section class="header_content_container">
-                    <div class="logo_container">
-                        <img 
-                        class="img_logo" src="../images/nonnas_cream2.png" alt="logo" 
-                        />
-                    </div>
-                        <nav class="menu_list_container">
-                            <ul class="menu_list">
-                                <li><a href="../index.html"> HOME </a></li>
-                                <li><a href="../pages/about_us.html"> ABOUT US </a></li>
-                                <li><a href="../pages/menu.html"> MENU </a></li>
-                                <li><a href="../pages/catering.html"> CATERING </a></li>
-                                <li><a href="../pages/contact_us.html"> CONTACT US </a></li>
-                            </ul>
-                        </nav>
-                </section>
-            </header>
+  <body>
+    <div id="grilla_menu">
+
+      <header class="header">
+
+        <section class="header_content_container">
+
+          <div class="header_logo_container">
+            <img 
+              class="header_img_logo"  src="../images/nonnas_cream2.png" alt="logo" 
+            />
+          </div>
+
+          <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav-2 me-auto">
+                  <li class="nav-item-2" >
+                    <a class="nav-link-2 active" aria-current="page" href="../index.html">HOME</a>
+                  </li>
+                  <li class="nav-item-2">
+                    <a class="nav-link-2" href="../pages/about_us.html">ABOUT US </a>
+                  </li>
+                  <li class="nav-item-2">
+                    <a class="nav-link-2" href="../pages/menu.html">MENU </a>
+                  </li>
+                  <li class="nav-item-2">
+                    <a class="nav-link-2" href="../pages/catering.html">CATERING  </a>
+                  </li>
+                  <li class="nav-item-2">
+                    <a class="nav-link-2" href="../pages/contact_us.html">CONTACT US   </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+         
+        </section>
+      </header>
 
 
-            <main class="main_container_menu">
-                <div class="main_img_container">
-                    <img
-                        class="main_img_1"
-                        src="../images/menu_main_image_1280px.jpg"
-                        alt="Imagen_de_comida"
-                    />
-                </div>
-
-                <div class="carta_container">
-            
-                    <section class="breakfast_title_container">
-                      <h3 class="breakfast_title">BREAKFAST</h3>
-                    </section>
-
-                    <article class="card_container">
-                        <div class="row">
-                            
-                            <div class="card col-lg-3 col-md-6 col-sm-12 col-xs-12">
-                                <img src="../images/eggwich.JPG" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                  <h5 class="card-title">Eggwich</h5>
-                                  <p class="card-text">Cheesy scrambled eggs & maple mayo on a homemade potato bun Choice of: Homemade sausage, bacon or avocado. Served with a side salad.</p>
-                                  <a href="#" class="btn btn-outline-dark">Add to cart</a>
-                                </div>
-                            </div>
-
-                            <div class="card col-lg-3 col-md-6 col-sm-12 col-xs-12">
-                                <img src="../images/pork_burrito3.JPG" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                  <h5 class="card-title">Pork breakfast burrito</h5>
-                                  <p class="card-text">Pork Shoulder Slow-cooked in red chili with scrambled eggs, potatoes, cheddar, pico de gallo & hominy, all wrapped in a whole wheat tortilla.</p>
-                                  <a href="#" class="btn btn-outline-dark">Go somewhere</a>
-                                </div>
-                            </div>
-                        </div>    
-                    </article>  
-                    
-                    <article class="card_container">
-                        <div class="row">
-                            
-                            <div class="card col-lg-3 col-md-6 col-sm-12 col-xs-12">
-                                <img src="../images/short_rib_hash.JPG" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                  <h5 class="card-title">short rib hash</h5>
-                                  <p class="card-text">Slow braised beef short rib with roasted Yukon potatoes, two sunny farm eggs & pickled chili salsa verde. Served with sourdough toast.</p>
-                                  <a href="#" class="btn btn-outline-dark">Go somewhere</a>
-                                </div>
-                            </div>
-
-                            <div class="card col-lg-3 col-md-6 col-sm-12 col-xs-12">
-                                <img src="../images/belt.JPG" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                  <h5 class="card-title">Belt</h5>
-                                  <p class="card-text">Thick cut bacon, over easy egg, market tomato, crisp lettuce & basil mayo. Served with a salad on the side</p>
-                                  <a href="#" class="btn btn-outline-dark">Go somewhere</a>
-                                </div>
-                            </div>
-                        </div>    
-                    </article>  
-
-                    <article class="card_container">
-                        <div class="row">
-                            
-                            <div class="card col-lg-3 col-md-6 col-sm-12 col-xs-12">
-                                <img src="../images/parfait.JPG" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                  <h5 class="card-title">Parfait</h5>
-                                  <p class="card-text">Thick yogurt, fresh berries, blueberry compote & homemade granola.</p>
-                                  <a href="#" class="btn btn-outline-dark">Go somewhere</a>
-                                </div>
-                            </div>
-
-                            <div class="card col-lg-3 col-md-6 col-sm-12 col-xs-12">
-                                <img src="../images/side_bacon.JPG" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                  <h5 class="card-title">Side bacon</h5>
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                  <a href="#" class="btn btn-outline-dark">Go somewhere</a>
-                                </div>
-                            </div>
-                        </div>    
-                    </article>
-
-                    <article class="card_container">
-                        <div class="row">
-                            
-                            <div class="card col-lg-3 col-md-6 col-sm-12 col-xs-12">
-                                <img src="../images/olive_oil_fried_eggs.JPG" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                  <h5 class="card-title">olive oil fried eggs</h5>
-                                  <p class="card-text">Two Jumbo Farm eggs fried with harissa, crisp chickpeas, thick yogurt & oil cured olives. Serves with toasted olive bread.</p>
-                                  <a href="#" class="btn btn-outline-dark">Go somewhere</a>
-                                </div>
-                            </div>
-
-                            <div class="card col-lg-3 col-md-6 col-sm-12 col-xs-12">
-                                <img src="../images/toast_butter.JPG" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                  <h5 class="card-title">Toast butter & jam</h5>
-                                  <p class="card-text">Two slices of sourdough bread toasted and served with our homemade seasonal jam & butter.</p>
-                                  <a href="#" class="btn btn-outline-dark">Go somewhere</a>
-                                </div>
-                            </div>
-                        </div>    
-                    </article>
-
-                    <article class="card_container">
-                        <div class="row">
-                            
-                            <div class="card col-lg-3 col-md-6 col-sm-12 col-xs-12">
-                                <img src="../images/pancake.JPG" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                  <h5 class="card-title">Baked Buckwheat Pancake</h5>
-                                  <p class="card-text">The Nonnas & Family classic. Served with blueberry compote & real maple syrup</p>
-                                  <a href="#" class="btn btn-outline-dark">Go somewhere</a>
-                                </div>
-                            </div>
-
-                            <div class="card col-lg-3 col-md-6 col-sm-12 col-xs-12">
-                                <img src="../images/mushroom2.JPG" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                  <h5 class="card-title">mushroom scramble</h5>
-                                  <p class="card-text">Three eggs scrambled with sautéed mushrooms, spinach & Sonoma goat cheese. Served with sourdough toast & a side salad.</p>
-                                  <a href="#" class="btn btn-outline-dark">Go somewhere</a>
-                                </div>
-                            </div>
-                        </div>    
-                    </article>
-                    <section class="breakfast_title_container">
-                        <h3 class="breakfast_title">LUNCH</h3>
-                      </section>
-  
-                      <article class="card_container">
-                          <div class="row">
-                              
-                              <div class="card col-lg-3 col-md-6 col-sm-12 col-xs-12">
-                                  <img src="../images/macro_bowl.JPG" class="card-img-top" alt="...">
-                                  <div class="card-body">
-                                    <h5 class="card-title">Macro bowl</h5>
-                                    <p class="card-text">Avocado, marinated beets, cucumbers, sprouted legumes, green beans & Koda Farms Brown rice. Served with a hard cooked egg & Yuzu dressing</p>
-                                    <a href="#" class="btn btn-outline-dark">Go somewhere</a>
-                                  </div>
-                              </div>
-  
-                              <div class="card col-lg-3 col-md-6 col-sm-12 col-xs-12">
-                                  <img src="../images/kale_salad.JPG" class="card-img-top" alt="...">
-                                  <div class="card-body">
-                                    <h5 class="card-title">Black kale salad</h5>
-                                    <p class="card-text">Shredded black kale & radicchio with roasted butternut squash, farro, toasted pepitas, parmesan & pumpkinseed vinaigrette</p>
-                                    <a href="#" class="btn btn-outline-dark">Go somewhere</a>
-                                  </div>
-                              </div>
-                          </div>    
-                      </article>  
-                      
-                      <article class="card_container">
-                          <div class="row">
-                              
-                              <div class="card col-lg-3 col-md-6 col-sm-12 col-xs-12">
-                                  <img src="../images/hippie_sandwich.JPG" class="card-img-top" alt="...">
-                                  <div class="card-body">
-                                    <h5 class="card-title">hippie sandwich</h5>
-                                    <p class="card-text">Sweet green pea mash with avocado, Greek feta, cucumber radishes & sunflower sprouts</p>
-                                    <a href="#" class="btn btn-outline-dark">Go somewhere</a>
-                                  </div>
-                              </div>
-  
-                              <div class="card col-lg-3 col-md-6 col-sm-12 col-xs-12">
-                                  <img src="../images/chicken_arugula.JPG" class="card-img-top" alt="...">
-                                  <div class="card-body">
-                                    <h5 class="card-title">chicken arungula salad</h5>
-                                    <p class="card-text"> Wild arugula with roasted pasture raised chicken, toasted almonds, pecorino & smoked chili vinaigrette    </p>
-                                    <a href="#" class="btn btn-outline-dark">Go somewhere</a>
-                                  </div>
-                              </div>
-                          </div>    
-                      </article>  
-  
-                      <article class="card_container">
-                          <div class="row">
-                              
-                              <div class="card col-lg-3 col-md-6 col-sm-12 col-xs-12">
-                                  <img src="../images/turkey.JPG" class="card-img-top" alt="...">
-                                  <div class="card-body">
-                                    <h5 class="card-title">Turkey sandwich</h5>
-                                    <p class="card-text">Oven Roasted turkey with Fontina cheese, wild arugula & Calabrian chili aioli. Served with a side salad</p>
-                                    <a href="#" class="btn btn-outline-dark">Go somewhere</a>
-                                  </div>
-                              </div>
-  
-                              <div class="card col-lg-3 col-md-6 col-sm-12 col-xs-12">
-                                  <img src="../images/grilled_cheese.JPG" class="card-img-top" alt="...">
-                                  <div class="card-body">
-                                    <h5 class="card-title">Grilled cheese</h5>
-                                    <p class="card-text">Gruyere, Muenster & scallions on sourdough. served with cornichons</p>
-                                    <a href="#" class="btn btn-outline-dark">Go somewhere</a>
-                                  </div>
-                              </div>
-                          </div>    
-                      </article>
-  
-                      <article class="card_container">
-                          <div class="row">
-                              
-                              <div class="card col-lg-3 col-md-6 col-sm-12 col-xs-12">
-                                  <img src="../images/simple_salad.JPG" class="card-img-top" alt="...">
-                                  <div class="card-body">
-                                    <h5 class="card-title">Simple greens</h5>
-                                    <p class="card-text">Beautiful lettuces and radishes tossed in lemon vinagrettee</p>
-                                    <a href="#" class="btn btn-outline-dark">Go somewhere</a>
-                                  </div>
-                              </div>
-                              <div class="card col-lg-3 col-md-6 col-sm-12 col-xs-12">
-                                <img src="../images/fried_chicken_sandwich.JPG" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                  <h5 class="card-title">Fried chicken sandwich</h5>
-                                  <p class="card-text">Crispy fried chicken on our potato bun with spicy apricot chutney & mayo. Served with a side salad</p>
-                                  <a href="#" class="btn btn-outline-dark">Go somewhere</a>
-                                </div>
-                            </div>
-  
-                             
-                          </div>    
-                      </article>
-                      
-                      
-                  
-                </div>
-
-            </main>
-
-            <footer class="footer_container">
-                <!--listas desordenadas-->
-                <section class="footer_content_container">
-                  <div class="locations_container">
-                        <h3 class="title_our_locations">
-                            Our Locations
-                        </h3>
-                        <ul class="locations_list">
-                            <li>Los Angeles</li>
-                            <li>Miami</li>
-                            <li>New York</li>
-                            <li>Washington D.C</li>
-                        </ul>
-                  </div>
-      
-                  <div class="footer_links_container">
-                    <h3 class="footer_links"><a href="../2nda entrega/pages/about_us.html">JOIN OUR TEAM</a></h3>
-                    <h3 class="footer_links"><a href="../2nda entrega/pages/contact_us.html">CONTACT US</a></h3>
-                  </div>
-                  <!-- logo del footer-->
-                  <div class="logo_footer_container">
-                    <img class="img_logo_footer" src="../images/nonnas_cream2.png" alt="logo" />
-                  </div>
-                </section>
-            </footer>
-
-            
+      <main class="menu">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-interval="200" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../images/menu_main_image_1280px.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="../images/about_us_1280px.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="../images/pastry_1280px.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <!-- bootstrap-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    </body>
+
+        <div class="carta_container">
+          <section class="breakfast_title_container">
+            <h3 class="breakfast_title">
+              BREAKFAST
+            </h3>
+          </section>
+
+          <article class="card_container">
+            <div class="row">
+              <div class="card col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                <img
+                  src="../images/eggwich.JPG"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Eggwich</h5>
+                  <p class="card-text">
+                    Cheesy scrambled eggs & maple mayo on a homemade potato bun
+                    Choice of: Homemade sausage, bacon or avocado. Served with a
+                    side salad.
+                  </p>
+                  <a href="#" class="btn btn-outline-dark">Add to cart</a>
+                </div>
+              </div>
+
+              <div class="card col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                <img
+                  src="../images/pork_burrito3.JPG"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Pork breakfast burrito</h5>
+                  <p class="card-text">
+                    Pork Shoulder Slow-cooked in red chili with scrambled eggs,
+                    potatoes, cheddar, pico de gallo & hominy, all wrapped in a
+                    whole wheat tortilla.
+                  </p>
+                  <a href="#" class="btn btn-outline-dark">Add to cart</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card_container">
+            <div class="row">
+              <div class="card col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                <img
+                  src="../images/short_rib_hash.JPG"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">short rib hash</h5>
+                  <p class="card-text">
+                    Slow braised beef short rib with roasted Yukon potatoes, two
+                    sunny farm eggs & pickled chili salsa verde. Served with
+                    sourdough toast.
+                  </p>
+                  <a href="#" class="btn btn-outline-dark">Add to cart</a>
+                </div>
+              </div>
+
+              <div class="card col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                <img src="../images/belt.JPG" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Belt</h5>
+                  <p class="card-text">
+                    Thick cut bacon, over easy egg, market tomato, crisp lettuce
+                    & basil mayo. Served with a salad on the side
+                  </p>
+                  <a href="#" class="btn btn-outline-dark">Add to cart</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card_container">
+            <div class="row">
+              <div class="card col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                <img
+                  src="../images/parfait.JPG"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Parfait</h5>
+                  <p class="card-text">
+                    Thick yogurt, fresh berries, blueberry compote & homemade
+                    granola.
+                  </p>
+                  <a href="#" class="btn btn-outline-dark">Add to cart</a>
+                </div>
+              </div>
+
+              <div class="card col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                <img
+                  src="../images/side_bacon.JPG"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Side bacon</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-outline-dark">Add to cart</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card_container">
+            <div class="row">
+              <div class="card col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                <img
+                  src="../images/olive_oil_fried_eggs.JPG"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">olive oil fried eggs</h5>
+                  <p class="card-text">
+                    Two Jumbo Farm eggs fried with harissa, crisp chickpeas,
+                    thick yogurt & oil cured olives. Serves with toasted olive
+                    bread.
+                  </p>
+                  <a href="#" class="btn btn-outline-dark">Add to cart</a>
+                </div>
+              </div>
+
+              <div class="card col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                <img
+                  src="../images/toast_butter.JPG"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Toast butter & jam</h5>
+                  <p class="card-text">
+                    Two slices of sourdough bread toasted and served with our
+                    homemade seasonal jam & butter.
+                  </p>
+                  <a href="#" class="btn btn-outline-dark">Add to cart</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card_container">
+            <div class="row">
+              <div class="card col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                <img
+                  src="../images/pancake.JPG"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Baked Buckwheat Pancake</h5>
+                  <p class="card-text">
+                    The Nonnas & Family classic. Served with blueberry compote &
+                    real maple syrup
+                  </p>
+                  <a href="#" class="btn btn-outline-dark">Add to cart</a>
+                </div>
+              </div>
+
+              <div class="card col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                <img
+                  src="../images/mushroom2.JPG"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">mushroom scramble</h5>
+                  <p class="card-text">
+                    Three eggs scrambled with sautéed mushrooms, spinach &
+                    Sonoma goat cheese. Served with sourdough toast & a side
+                    salad.
+                  </p>
+                  <a href="#" class="btn btn-outline-dark">Add to cart</a>
+                </div>
+              </div>
+            </div>
+          </article>
+          <section class="breakfast_title_container">
+            <h3 class="breakfast_title">LUNCH</h3>
+          </section>
+
+          <article class="card_container">
+            <div class="row">
+              <div class="card col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                <img
+                  src="../images/macro_bowl.JPG"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Macro bowl</h5>
+                  <p class="card-text">
+                    Avocado, marinated beets, cucumbers, sprouted legumes, green
+                    beans & Koda Farms Brown rice. Served with a hard cooked egg
+                    & Yuzu dressing
+                  </p>
+                  <a href="#" class="btn btn-outline-dark">Add to cart</a>
+                </div>
+              </div>
+
+              <div class="card col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                <img
+                  src="../images/kale_salad.JPG"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Black kale salad</h5>
+                  <p class="card-text">
+                    Shredded black kale & radicchio with roasted butternut
+                    squash, farro, toasted pepitas, parmesan & pumpkinseed
+                    vinaigrette
+                  </p>
+                  <a href="#" class="btn btn-outline-dark">Add to cart</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card_container">
+            <div class="row">
+              <div class="card col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                <img
+                  src="../images/hippie_sandwich.JPG"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">hippie sandwich</h5>
+                  <p class="card-text">
+                    Sweet green pea mash with avocado, Greek feta, cucumber
+                    radishes & sunflower sprouts
+                  </p>
+                  <a href="#" class="btn btn-outline-dark">Add to cart</a>
+                </div>
+              </div>
+
+              <div class="card col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                <img
+                  src="../images/chicken_arugula.JPG"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">chicken arungula salad</h5>
+                  <p class="card-text">
+                    Wild arugula with roasted pasture raised chicken, toasted
+                    almonds, pecorino & smoked chili vinaigrette
+                  </p>
+                  <a href="#" class="btn btn-outline-dark">Add to cart</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card_container">
+            <div class="row">
+              <div class="card col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                <img
+                  src="../images/turkey.JPG"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Turkey sandwich</h5>
+                  <p class="card-text">
+                    Oven Roasted turkey with Fontina cheese, wild arugula &
+                    Calabrian chili aioli. Served with a side salad
+                  </p>
+                  <a href="#" class="btn btn-outline-dark">Add to cart</a>
+                </div>
+              </div>
+
+              <div class="card col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                <img
+                  src="../images/grilled_cheese.JPG"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Grilled cheese</h5>
+                  <p class="card-text">
+                    Gruyere, Muenster & scallions on sourdough. served with
+                    cornichons
+                  </p>
+                  <a href="#" class="btn btn-outline-dark">Add to cart</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="card_container">
+            <div class="row">
+              <div class="card col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                <img
+                  src="../images/simple_salad.JPG"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Simple greens</h5>
+                  <p class="card-text">
+                    Beautiful lettuces and radishes tossed in lemon vinagrettee
+                  </p>
+                  <a href="#" class="btn btn-outline-dark">Add to cart</a>
+                </div>
+              </div>
+              <div class="card col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                <img
+                  src="../images/fried_chicken_sandwich.JPG"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Fried chicken sandwich</h5>
+                  <p class="card-text">
+                    Crispy fried chicken on our potato bun with spicy apricot
+                    chutney & mayo. Served with a side salad
+                  </p>
+                  <a href="#" class="btn btn-outline-dark">Add to cart</a>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <!--listas desordenadas-->
+        <section class="footer_content_container">
+          <div class="footer_locations_container">
+           
+            <div class="footer_locations_list">
+              <p>location</p>
+              <p>los angeles</p>
+              <p> 5150 hollywood blvd,
+                  los angeles, ca 90027
+              </p>
+              <p>(323) 668-2000</p>
+              <p>hello@friendsandfamilyla.com</p>
+              <p> monday - friday:
+                  8:00 am - 3:00 pm
+                  kitchen closes at 2pm m-f
+              </p>
+              <p> saturday - sunday:
+                  8:00 am - 3:00 pm
+              </p>
+            </div>
+          </div>
+
+          <div class="footer_links_container">
+            <img class="footer_instagram_logo" src="../images/instagram_logo_grey_48px.png" alt="logo" />
+            <h3 class="footer_links"><a href="../pages/about_us.html">JOIN OUR TEAM</a></h3>
+            <h3 class="footer_links"><a href="../pages/contact_us.html">CONTACT US</a></h3>
+          </div>
+          <!-- logo del footer-->
+          <div class="footer_logo_container">
+            <img class="footer_img_logo" src="../images/nonnas_cream2.png" alt="logo" />
+          </div>
+        </section>
+      </footer>
+    </div>
+    <!-- bootstrap-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous">
+    </script>
+  </body>
 </html>

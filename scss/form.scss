@@ -1,0 +1,96 @@
+.form {
+    background-color: whitesmoke;
+    height: 5fr;
+    @include flex-column-center;
+    padding: 5% 0 5% 0;
+
+    &_subcontainer {
+        height: 5fr;
+        @include flex-column-center;
+        background-color: whitesmoke;
+        border: 0.5px solid grey;
+        font-size: map-get($fontsize-mood,size-original);
+        padding-bottom: 5%;
+        padding-top: 5%;
+        }
+    &_which_location_container {
+        width: 80%;
+        font-size: map-get($fontsize-mood,size-one);
+        padding: 2% 0 2% 0;
+        }
+    &_locations_list {
+        font-size: map-get($fontsize-mood,size-one);
+        width: 80%;
+        padding: 2% 0 2% 0;
+        }
+    &_title {
+        font-size: map-get($fontsize-mood,size-one);
+        width: 80%;
+        padding: 2% 0 2% 0;
+        }
+    &_how_experience {
+        font-size: map-get($fontsize-mood,size-one);
+        width: 80%;
+        padding: 2% 0 2% 0;
+        }
+    &_star-rating {
+        width: 80%;
+        }
+    &_add_review {
+        font-size: map-get($fontsize-mood,size-one);
+        width: 80%;
+        padding: 2% 0 2% 0;
+        }
+    &_textarea {
+        font-size: map-get($fontsize-mood,size-one);
+        width: 80%;
+        }
+    &_enter_email {
+        font-size: map-get($fontsize-mood,size-one);
+        width: 80%;
+        padding: 2% 0 2% 0;
+        display: flex;
+        flex-direction: column;
+        }
+    &_email {
+        font-size: map-get($fontsize-mood,size-one);
+        width: 80%;
+        }
+    &_button_container {
+        font-size: map-get($fontsize-mood,size-one);
+        width: 60%;
+        }
+    &_button {
+        padding: 2% 0 2% 0;
+        }
+    /*formato para estrellas de rating*/
+    &_star-rating {
+        color: #bebebe;
+        font-size: map-get($fontsize-mood,size-one);
+        width: 60%;
+        }
+    &_my-star::before {
+        content: "\002605";
+        }
+    &_my-star {
+        font-style: unset !important;
+        }
+    /*REVISAR (NO ESTA EN CODE HTML)*/
+    &_is-active {
+    color: #fb8900;
+    }
+    &_my-star:not(.is-active):hover {
+    color: #fb8900;
+    }
+
+}
+  
+#locations_list {
+    font-size: map-get($fontsize-mood,size-one);
+    width: 80%;
+    padding: 2% 0 2% 0;
+  }
+  #textarea {
+    font-size: map-get($fontsize-mood,size-one);
+    width: 80%;
+  }
