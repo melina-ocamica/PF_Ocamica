@@ -3,8 +3,6 @@
 /*formato de todo*/
 * {
   font-family: "Jost", "Arial";
-  text-align: center;
-  margin: 0;
   padding: 0;
   border: 0;
   box-sizing: border-box;
@@ -106,6 +104,7 @@
   padding-bottom: 2em;
   padding-top: 2em;
   font-size: 20px;
+  text-align: center;
 }
 .intro_weare {
   width: 80%;
@@ -123,7 +122,8 @@
   width: 80%;
 }
 .intro_br_container {
-  background-color: whitesmoke;
+  text-align: center;
+  background-color: white;
   display: flex;
   flex-direction: row;
   height: 3.5fr;
@@ -133,7 +133,6 @@
   padding: 2%;
 }
 .intro_br_text_container {
-  border: 0.25em solid black;
   display: flex;
   width: 50%;
   flex-direction: column;
@@ -151,9 +150,6 @@
   font-size: 1rem;
 }
 .intro_br_img_container {
-  border-top: 0.25em solid black;
-  border-right: 0.25em solid black;
-  border-bottom: 0.25em solid black;
   display: flex;
   width: 50%;
   align-items: center;
@@ -165,7 +161,8 @@
   max-width: 100%;
 }
 .intro_mc_container {
-  background-color: whitesmoke;
+  text-align: center;
+  background-color: white;
   display: flex;
   flex-direction: row-reverse;
   height: 3.5fr;
@@ -175,8 +172,6 @@
   padding: 2%;
 }
 .intro_mc_text_container {
-  border-right: 0.25em solid black;
-  border-bottom: 0.25em solid black;
   display: flex;
   width: 50%;
   flex-direction: column;
@@ -184,9 +179,6 @@
   font-size: 20px;
 }
 .intro_mc_img_container {
-  border-left: 0.25em solid black;
-  border-bottom: 0.25em solid black;
-  border-right: 0.25em solid black;
   display: flex;
   width: 50%;
   align-items: center;
@@ -200,6 +192,7 @@
   letter-spacing: 2px;
 }
 .intro_description_mc {
+  text-align: center;
   padding: 2% 0 2% 0;
   font-size: 1rem;
 }
@@ -217,6 +210,7 @@
   height: 3fr;
   padding: 5% 0 2% 0;
   font-size: 20px;
+  text-align: center;
 }
 .visit_locations_hours_container {
   display: flex;
@@ -230,7 +224,7 @@
   align-items: center;
   justify-content: center;
   padding: 1% 0 1% 0;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 .visit_hours_container {
   display: flex;
@@ -238,7 +232,7 @@
   align-items: center;
   justify-content: center;
   width: 33.33%;
-  padding: 1% 0 1% 0;
+  padding: 1% 0 0 0;
   font-size: 0.9rem;
 }
 .visit_cupcake_img_container {
@@ -279,95 +273,117 @@
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 3px;
-  padding: 2% 0 2% 0;
+  padding: 2% 0 0 0;
 }
 .visit_hours {
-  width: 60%;
+  width: 80%;
 }
 
 .form {
-  background-color: whitesmoke;
-  height: 5fr;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 5% 0 5% 0;
+  padding: 0 1% 1% 1%;
+  flex-direction: column;
   /*formato para estrellas de rating*/
   /*REVISAR (NO ESTA EN CODE HTML)*/
 }
 .form_subcontainer {
-  height: 5fr;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  background-color: whitesmoke;
-  border: 0.5px solid grey;
+  flex-direction: column;
+  padding: 5% 0 5% 0;
   font-size: 20px;
-  padding-bottom: 5%;
-  padding-top: 5%;
+  padding-bottom: 2%;
+  padding-top: 2%;
+  width: 50%;
 }
 .form_which_location_container {
-  width: 80%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
   font-size: 1rem;
-  padding: 2% 0 2% 0;
+  padding: 0 0 1% 0;
 }
 .form_locations_list {
+  display: flex;
+  text-align: center;
+  height: 3rem;
   font-size: 1rem;
-  width: 80%;
-  padding: 2% 0 2% 0;
+  border: 0.5px solid grey;
+  border-radius: 3px;
 }
 .form_title {
-  font-size: 1rem;
-  width: 80%;
-  padding: 2% 0 2% 0;
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  padding: 2% 0 5% 0;
+  align-self: center;
+  text-align: center;
 }
 .form_how_experience {
+  display: flex;
+  text-align: center;
+  align-self: center;
   font-size: 1rem;
-  width: 80%;
-  padding: 2% 0 2% 0;
 }
 .form_star-rating {
-  width: 80%;
+  align-self: center;
+  display: flex;
+  text-align: center;
+  font-size: 0.9rem;
 }
 .form_add_review {
+  display: flex;
+  flex-direction: column;
   font-size: 1rem;
-  width: 80%;
-  padding: 2% 0 2% 0;
+  text-align: center;
 }
 .form_textarea {
+  display: flex;
   font-size: 1rem;
-  width: 80%;
+  height: 8rem;
+  border: 0.5px solid grey;
+  border-radius: 4px;
 }
 .form_enter_email {
   font-size: 1rem;
-  width: 80%;
-  padding: 2% 0 2% 0;
+  text-align: center;
   display: flex;
   flex-direction: column;
 }
-.form_email {
+.form_label_email {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
   font-size: 1rem;
-  width: 80%;
+}
+.form_email {
+  display: flex;
+  font-size: 1rem;
+  height: 3rem;
+  border-radius: 4px;
+  border: 0.5px solid grey;
 }
 .form_button_container {
+  display: flex;
   font-size: 1rem;
-  width: 60%;
-}
-.form_button {
-  padding: 2% 0 2% 0;
-}
-.form_star-rating {
-  color: #bebebe;
-  font-size: 1rem;
-  width: 60%;
+  width: 100%;
+  height: 3rem;
+  padding: 5px;
+  text-align: center;
+  justify-content: center;
+  align-self: center;
+  border-radius: 20px;
 }
 .form_my-star::before {
   content: "★";
+  font-size: 1.5rem;
 }
 .form_my-star {
   font-style: unset !important;
+  font-size: 0.9rem;
 }
 .form_is-active {
   color: #fb8900;
@@ -377,13 +393,13 @@
 }
 
 #locations_list {
-  font-size: 1rem;
+  font-size: 0.9rem;
   width: 80%;
   padding: 2% 0 2% 0;
 }
 
 #textarea {
-  font-size: 1rem;
+  font-size: 0.9rem;
   width: 80%;
 }
 
@@ -542,6 +558,7 @@
   display: flex;
   width: 100%;
   flex-direction: column;
+  text-align: center;
 }
 .menu_main_img_container {
   height: 0.5fr;
@@ -564,7 +581,9 @@
   font-size: 14px;
 }
 .menu_card-title {
+  display: flex;
   font-size: 1rem;
+  text-align: center;
 }
 
 .row {
@@ -606,7 +625,12 @@
   display: flex;
   background-color: rgb(241, 111, 62);
   justify-content: center;
-  padding-top: 1%;
+  margin-top: 5%;
+}
+
+.breakfast_title {
+  display: flex;
+  padding-top: 0.8%;
 }
 
 /*CATERING*/
@@ -616,43 +640,11 @@
   width: 100%;
   margin: 0 auto;
   border: 1px solid black;
-  grid-template-rows: 100px 30fr 200px;
+  grid-template-rows: 100px 50fr 200px;
   grid-template-columns: 25% 25% 25% 25%;
   grid-template-areas: "header header header header" "main main  main  main" "footer footer footer footer";
 }
 
-.catering_form {
-  background-color: whitesmoke;
-  height: 5fr;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 0% 0 0% 0;
-}
-
-.catering_form_subcontainer {
-  height: 5fr;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: whitesmoke;
-  border: 0.5px solid grey;
-  font-size: 20px;
-  padding-bottom: 5%;
-  padding-top: 5%;
-  padding-right: 5%;
-  padding-left: 5%;
-}
-
-.catering_title_form_container {
-  display: flex;
-  flex-direction: row;
-  align-items: first baseline;
-  justify-content: center;
-  padding: 5% 5px 5% 5px;
-}
 .catering_img_container {
   display: flex;
   flex-direction: row;
@@ -685,60 +677,174 @@
   max-width: 100%;
   height: 100%;
 }
-.catering_form_container {
-  background-color: whitesmoke;
-  height: 5fr;
+.catering_form_title_container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 5% 0 5% 0;
-}
-.catering_form_subcontainer {
-  height: 5fr;
-  background-color: whitesmoke;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: 20px;
-  padding-bottom: 5%;
-  padding-top: 5%;
-}
-.catering_title_form_container {
-  display: flex;
+  padding: 0 1% 1% 1%;
   flex-direction: row;
-  align-items: first baseline;
-  justify-content: center;
+  padding-bottom: 4%;
+  padding-top: 4%;
 }
 .catering_title_container {
-  width: 50%;
+  width: 33%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  padding: 1% 0 5% 0;
 }
-.catering_enter_email {
+.catering_title {
+  font-size: 20px;
+}
+.catering_description {
   font-size: 1rem;
-  width: 80%;
-  padding: 2% 0 2% 0;
+}
+.catering_form_container {
+  display: flex;
+  flex-direction: column;
+  width: 67%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.catering_form {
+  padding: 0 1% 1% 1%;
+}
+.catering_form_subcontainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5% 0 5% 0;
+  font-size: 20px;
+  padding-bottom: 2%;
+  padding-top: 2%;
+}
+.catering_form_enter_name {
+  font-size: 1rem;
+  text-align: center;
   display: flex;
   flex-direction: column;
 }
-.catering_email {
+.catering_form_label_name {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  font-size: 1rem;
+}
+.catering_form_name {
+  display: flex;
+  font-size: 1rem;
+  height: 3rem;
+  border-radius: 4px;
+  border: 0.5px solid grey;
+  padding-left: 1rem;
+}
+.catering_form_enter_email {
+  font-size: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.catering_form_label_email {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  font-size: 1rem;
+}
+.catering_form_email {
+  display: flex;
+  font-size: 1rem;
+  height: 3rem;
+  border-radius: 4px;
+  border: 0.5px solid grey;
+  padding-left: 1rem;
+}
+.catering_form_enter_phone {
+  font-size: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.catering_form_label_phone {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  font-size: 1rem;
+}
+.catering_form_phone {
+  display: flex;
+  font-size: 1rem;
+  height: 3rem;
+  border-radius: 4px;
+  border: 0.5px solid grey;
+  padding-left: 1rem;
+}
+.catering_form_add_message {
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  text-align: center;
+}
+.catering_form_textarea {
+  display: flex;
+  font-size: 1rem;
+  height: 8rem;
+  border: 0.5px solid grey;
+  border-radius: 4px;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+.catering_form_enter_date {
+  font-size: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.catering_form_label_date {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  font-size: 1rem;
+}
+.catering_form_date {
+  display: flex;
+  font-size: 1rem;
+  height: 3rem;
+  border-radius: 4px;
+  border: 0.5px solid grey;
+  padding-left: 1rem;
+  color: grey;
+}
+.catering_form_button_container {
+  display: flex;
   font-size: 1rem;
   width: 100%;
-}
-.catering_date {
-  padding: 5% 0 5% 0;
+  height: 3rem;
+  padding: 5px;
+  text-align: center;
+  justify-content: center;
+  align-self: center;
+  border-radius: 20px;
 }
 
 /*CONTACT US*/
 /*CONTACT US*/
-.title_form_container {
+.contact_form_title_container {
   display: flex;
+  padding: 0 1% 1% 1%;
+  flex-direction: column;
+  padding-bottom: 4%;
+  padding-top: 4%;
   align-items: center;
-  justify-content: center;
+}
+.contact_title_container {
+  display: flex;
+  flex-direction: column;
+  padding: 1% 0 5% 0;
+}
+.contact_title {
+  font-size: 20px;
+  text-align: center;
+}
+.contact_description {
+  font-size: 1rem;
+  text-align: center;
 }
 
 /*MEDIA QUERYS*/
@@ -833,11 +939,20 @@
     height: none;
     padding: 4%;
   }
-  .catering_title_form_container {
+  .footer_locations_container {
+    width: 100%;
+  }
+  .catering_form_title_container {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 5% 5px 5% 5px;
+  }
+  .catering_title_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
   }
 }
 @media (max-width: 769px) and (min-width: 420px) {
@@ -851,6 +966,15 @@
   }
   .header_img_logo {
     height: 60px;
+  }
+  .navbar-nav-2 {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(65, 17%, 73%);
+    opacity: 0.7;
+  }
+  .collapse ul {
+    height: 100vh;
   }
   .intro_br_img_container {
     border: none;
@@ -941,9 +1065,28 @@
     height: none;
     padding: 4%;
   }
-  .catering_title_form_container {
+  .footer_locations_container {
+    width: 100%;
+  }
+  .catering_form_title_container {
     flex-direction: column;
     padding: 5% 5px 5% 5px;
+    align-items: center;
+  }
+  .catering_title_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .catering_img_container {
+    flex-direction: column;
+  }
+  .catering_img_1_container {
+    width: 100%;
+  }
+  .catering_img_2_container {
+    width: 100%;
   }
   /*achicar font-sizes*/
   .header_menu_list {
@@ -964,7 +1107,7 @@
     border: none;
   }
   .visit {
-    font-size: 12px;
+    font-size: 16px;
   }
   .visit_locations_container {
     font-size: 14px;
@@ -989,7 +1132,13 @@
     height: 0.5fr;
   }
   .header_img_logo {
-    height: 50px;
+    height: 70px;
+  }
+  .navbar-nav-2 {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(65, 17%, 73%);
+    opacity: 0.7;
   }
   .intro_br_container {
     flex-direction: column;
@@ -1041,7 +1190,8 @@
   }
   .visit_cupcake_img {
     height: 100%;
-    width: 10%;
+    width: 30%;
+    padding-bottom: 3%;
   }
   .intro_br_img_container {
     border: none;
@@ -1059,7 +1209,7 @@
     height: 550px;
   }
   .footer_img_logo {
-    height: 50px;
+    height: 70px;
   }
   .footer_content_container {
     flex-direction: column;
@@ -1068,27 +1218,42 @@
     height: none;
     padding: 4%;
   }
+  .footer_locations_container {
+    width: 100%;
+  }
+  .catering_form_title_container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 5px 5% 5px;
+  }
+  .catering_title_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .catering_img_container {
+    flex-direction: column;
+  }
+  .catering_img_1_container {
+    width: 100%;
+  }
+  .catering_img_2_container {
+    width: 100%;
+  }
   /*achicar font-sizes*/
   .header_menu_list {
-    font-size: 10px;
+    font-size: 16px;
   }
   .intro {
-    font-size: 10px;
+    font-size: 16px;
   }
   .intro_br_text_container {
-    font-size: 10px;
+    font-size: 16px;
   }
   .intro_mc_text_container {
-    font-size: 10px;
-  }
-  .visit {
-    font-size: 10px;
-  }
-  .visit_locations_container {
-    font-size: 10px;
-  }
-  .visit_title_container {
-    font-size: 12px;
+    font-size: 16px;
   }
   .form_subcontainer {
     font-size: 10px;
@@ -1125,6 +1290,14 @@ li:hover {
 
 .form_button_container:hover {
   background-color: rgb(241, 111, 62);
+}
+
+.catering_form_button_container:hover {
+  background-color: rgb(241, 111, 62);
+}
+
+.navbar.expanded #navbarToggle > ul > li > a {
+  color: black;
 }
 
 /*# sourceMappingURL=main.css.map */

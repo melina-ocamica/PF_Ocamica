@@ -33,7 +33,7 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <title>Catering</title>
+    <title>Catering - Nonnas and family</title>
     <body>
       <div id="grilla_catering">
 
@@ -94,59 +94,73 @@
                 />
               </div>
             </div>
-            <section class="catering_title_form_container">
+
+            <section class="catering_form_title_container">
+           
               <div class="catering_title_container">
-                <h3 class="catering_form_title">CATERING INQUIRY</h3>
-                <p class="visit_locations">
-                  Contact us for catering information and we will get back to you soon.
+                <h3 class="catering_title">CATERING INQUIRY</h3>
+                <p class="catering_description">Contact us for catering information and we will get back to you soon.
                 </p>
               </div>
-              <div class="catering_form">
-                <form>
+              
+              <div class="catering_form_container">
+               
+                <form class="catering_form">
                   <section class="catering_form_subcontainer">
-                    
-                    <p class="catering_enter_email">
-                        <input class="catering_email"
+
+                    <p class="catering_form_enter_name">
+                      <label class="catering_form_label_name" for="Enter your name">
+                        <input class="catering_form_name"
                           type="name"
                           name="name"
-                          id="name"
-                          placeholder="Name"
+                          id="form_name"
+                          placeholder="Name (Required)"
                         />
                       </label>
                     </p>
-                    <p class="catering_enter_email">
-                      <input class="catering_email"
-                        type="email"
-                        name="email"
-                        id="email"
-                        placeholder="Email"
-                      />
-                    </label>
+                    <p class="catering_form_enter_email">Enter your email
+                      <label class="catering_form_label_email" for="Enter your email">
+                        <input class="catering_form_email"
+                          type="email"
+                          name="email"
+                          id="form_email"
+                          placeholder="Ej: johndoe@gmail.com"
+                        />
+                      </label>
                     </p>
-                    <p class="catering_enter_email">
-                      <input class="catering_email"
-                        type="phone"
-                        name="phone"
-                        id="phone"
-                        placeholder="Phone"
-                      />
-                    </label>
+                    <p class="catering_form_enter_phone">Enter your phone
+                      <label class="catering_form_label_phone" for="Enter your phone">
+                        <input class="catering_form_phone"
+                          type="phone"
+                          name="phone"
+                          id="form_phone"
+                          placeholder="Format: 000-000-0000"
+                        />
+                      </label>
                     </p>
-                    <p class="form_add_review">
-                      <textarea 
-                        name="textarea" id="textarea" cols="30" rows="10" placeholder="Message">
-                      </textarea>
+                    <p class="catering_form_add_message">
+                      <textarea name="textarea" class="catering_form_textarea" placeholder="Add your message"></textarea>
                     </p>
-                    <p class="form_date">
-                      <label for="date_event">Date of event:</label>
-                      <input type="date" id="birthday" name="date">
+                    <p class="catering_form_enter_date">Enter date o event
+                      <label class="catering_form_label_date" for="Enter date">
+                        <input class="catering_form_date"
+                          type="date"
+                          name="date"
+                          id="form_date"
+                        />
+                      </label>
                     </p>
-                    <input class="form_button_container"
-                      type="submit" class="form_button" value="Submit" 
+                      <!-- input submit-->
+                    <input class="catering_form_button_container"
+                        type="submit" class="catering_form_button" value="Submit" 
                     />
                   </section>
-                </form>  
+                </form>
+                
+      
               </div>
+              
+              
             </section>    
           </main>
 
@@ -156,27 +170,29 @@
               <div class="footer_locations_container">
                
                 <div class="footer_locations_list">
-                  <p>location</p>
-                  <p>los angeles</p>
+                  <p>Location</p>
+                  <p>Los Angeles</p>
                   <p> 5150 hollywood blvd,
                       los angeles, ca 90027
                   </p>
                   <p>(323) 668-2000</p>
                   <p>hello@friendsandfamilyla.com</p>
-                  <p> monday - friday:
+                  <p> Monday - Friday:
                       8:00 am - 3:00 pm
-                      kitchen closes at 2pm m-f
                   </p>
-                  <p> saturday - sunday:
+                  <p> Kitchen closes at 2pm Mon-Fri</p>
+                  
+                  <p> Saturday - Sunday:
                       8:00 am - 3:00 pm
                   </p>
                 </div>
               </div>
+            
     
               <div class="footer_links_container">
                 <img class="footer_instagram_logo" src="../images/instagram_logo_grey_48px.png" alt="logo" />
-                <h3 class="footer_links"><a href="../pages/about_us.html">JOIN OUR TEAM</a></h3>
-                <h3 class="footer_links"><a href="../pages/contact_us.html">CONTACT US</a></h3>
+                <h2 class="footer_links"><a href="../pages/about_us.html">JOIN OUR TEAM</a></h2>
+                <h2 class="footer_links"><a href="../pages/contact_us.html">CONTACT US</a></h2>
               </div>
               <!-- logo del footer-->
               <div class="footer_logo_container">

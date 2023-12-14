@@ -1,0 +1,86 @@
+/*MENU*/
+#grilla_menu {
+  display: grid;
+  width: 100%;
+  margin: 0;
+  grid-template-rows: 100px 30fr 200px;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-areas:
+    "header header header header"
+    "main main  main  main"
+    "footer footer footer footer";
+}
+
+.menu {
+  grid-area: main;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  text-align: center;
+
+  &_main_img_container {
+    height: 0.5fr;
+  }
+
+  &_carta_container {
+    @include flex-column-center;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    font-size: map-get($fontsize-mood, size-original);
+   
+  }
+  &_card-img-top {
+    padding-top: 5%;
+  }
+
+  &_card {
+    width: 100%;
+    margin: 3%;
+    font-size: 14px;
+    
+  }
+  &_card-title {
+    display: flex;
+    font-size: map-get($fontsize-mood, size-one);
+    text-align: center;
+   
+  }
+}
+
+.row {
+  height: 0.2fr;
+  @include flex-row-center;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  font-size: map-get($fontsize-mood, size-original);
+}
+
+.carta_container_2 {
+  @include flex-column-center;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  font-size: map-get($fontsize-mood, size-original);
+}
+.card-img-top {
+  padding-top: 5%;
+}
+
+.card {
+  width: 100%;
+  margin: 3%;
+  font-size: 14px;
+}
+.card-title {
+  font-size: map-get($fontsize-mood, size-one);
+}
+
+.breakfast_title_container {
+  display: flex;
+  background-color: rgba(241, 111, 62, 1);
+  justify-content: center;
+  margin-top: 5%;
+}
+.breakfast_title {
+  display: flex;
+  padding-top: .8%;
+}
