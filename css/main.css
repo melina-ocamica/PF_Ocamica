@@ -968,13 +968,14 @@
     height: 60px;
   }
   .navbar-nav-2 {
+    margin-top: 0;
+    display: inline;
+    text-transform: uppercase;
+    position: fixed;
     display: flex;
     flex-direction: column;
     background-color: hsl(65, 17%, 73%);
-    opacity: 0.7;
-  }
-  .collapse ul {
-    height: 100vh;
+    opacity: 0.9;
   }
   .intro_br_img_container {
     border: none;
@@ -1128,17 +1129,21 @@
     grid-template-rows: 100px 5fr 75px;
     grid-template-areas: "header" "main" "footer";
   }
+  .navbar-nav-2 {
+    margin-top: 0;
+    display: inline;
+    text-transform: uppercase;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(65, 17%, 73%);
+    opacity: 0.9;
+  }
   .main_img_container {
     height: 0.5fr;
   }
   .header_img_logo {
     height: 70px;
-  }
-  .navbar-nav-2 {
-    display: flex;
-    flex-direction: column;
-    background-color: hsl(65, 17%, 73%);
-    opacity: 0.7;
   }
   .intro_br_container {
     flex-direction: column;

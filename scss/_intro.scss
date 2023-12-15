@@ -35,7 +35,6 @@
   }
 
   &_br_text_container {
-   
     display: flex;
     width: 50%;
     flex-direction: column;
@@ -54,7 +53,6 @@
   }
 
   &_br_img_container {
-    
     display: flex;
     width: 50%;
     align-items: center;
@@ -69,7 +67,7 @@
 
   &_mc_container {
     text-align: center;
-    background-color:white;
+    background-color: white;
     display: flex;
     flex-direction: row-reverse;
     height: 3.5fr;
@@ -80,7 +78,6 @@
     padding: 2%;
   }
   &_mc_text_container {
-   
     display: flex;
     width: 50%;
     flex-direction: column;
@@ -88,7 +85,6 @@
     font-size: map-get($fontsize-mood, size-original);
   }
   &_mc_img_container {
-   
     display: flex;
     width: 50%;
     align-items: center;

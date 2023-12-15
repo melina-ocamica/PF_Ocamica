@@ -1,27 +1,24 @@
 /*CONTACT US*/
 .contact {
-
-&_form_title_container {
-  display:flex;
-  padding:0 1% 1% 1%;
-  flex-direction: column;
-  padding-bottom: 4%;
-  padding-top: 4%;
-  align-items: center;
-}
-&_title_container {
- 
-  display: flex;
-  flex-direction: column;
-  padding: 1% 0 5% 0;
-  
-}
-&_title {
-  font-size: map-get($fontsize-mood, size-original);
-  text-align: center;
-}
-&_description {
-  font-size: map-get($fontsize-mood, size-one);
-  text-align: center;
-}
+  &_form_title_container {
+    display: flex;
+    padding: 0 1% 1% 1%;
+    flex-direction: column;
+    padding-bottom: 4%;
+    padding-top: 4%;
+    align-items: center;
+  }
+  &_title_container {
+    display: flex;
+    flex-direction: column;
+    padding: 1% 0 5% 0;
+  }
+  &_title {
+    font-size: map-get($fontsize-mood, size-original);
+    text-align: center;
+  }
+  &_description {
+    font-size: map-get($fontsize-mood, size-one);
+    text-align: center;
+  }
 }

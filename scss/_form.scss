@@ -1,31 +1,31 @@
 .form {
-  display:flex;
+  display: flex;
   align-items: center;
   justify-content: center;
-  padding:0 1% 1% 1%;
+  padding: 0 1% 1% 1%;
   flex-direction: column;
- 
+
   &_subcontainer {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  padding: 5% 0 5% 0;
-  font-size: map-get($fontsize-mood, size-original);
-  padding-bottom: 2%;
-  padding-top: 2%;
-  width:50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5% 0 5% 0;
+    font-size: map-get($fontsize-mood, size-original);
+    padding-bottom: 2%;
+    padding-top: 2%;
+    width: 50%;
   }
   &_which_location_container {
-    display:flex;
+    display: flex;
     text-align: center;
     flex-direction: column;
     font-size: map-get($fontsize-mood, size-one);
     padding: 0 0 1% 0;
   }
   &_locations_list {
-    display:flex;
+    display: flex;
     text-align: center;
-    height:3rem;
+    height: 3rem;
     font-size: map-get($fontsize-mood, size-one);
     border: 0.5px solid grey;
     border-radius: 3px;
@@ -56,12 +56,11 @@
     flex-direction: column;
     font-size: map-get($fontsize-mood, size-one);
     text-align: center;
-    
   }
   &_textarea {
     display: flex;
     font-size: map-get($fontsize-mood, size-one);
-    height:8rem;
+    height: 8rem;
     border: 0.5px solid grey;
     border-radius: 4px;
   }
@@ -71,20 +70,17 @@
     text-align: center;
     display: flex;
     flex-direction: column;
-    
-   
   }
   &_label_email {
-    display: flex; 
+    display: flex;
     text-align: center;
     flex-direction: column;
     font-size: map-get($fontsize-mood, size-one);
-   
   }
   &_email {
     display: flex;
     font-size: map-get($fontsize-mood, size-one);
-    height:3rem;
+    height: 3rem;
     border-radius: 4px;
     border: 0.5px solid grey;
   }
@@ -92,7 +88,7 @@
     display: flex;
     font-size: map-get($fontsize-mood, size-one);
     width: 100%;
-    height:3rem;
+    height: 3rem;
     padding: 5px;
     text-align: center;
     justify-content: center;
@@ -100,13 +96,11 @@
     border-radius: 20px;
   }
 
- 
   /*formato para estrellas de rating*/
 
   &_my-star::before {
     content: "\002605";
     font-size: 1.5rem;
-    
   }
   &_my-star {
     font-style: unset !important;
@@ -125,7 +119,7 @@
   font-size: map-get($fontsize-mood, size-two);
   width: 80%;
   padding: 2% 0 2% 0;
-}  
+}
 #textarea {
   font-size: map-get($fontsize-mood, size-two);
   width: 80%;

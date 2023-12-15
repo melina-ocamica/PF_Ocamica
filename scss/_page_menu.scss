@@ -27,7 +27,6 @@
     padding-bottom: 1em;
     padding-top: 1em;
     font-size: map-get($fontsize-mood, size-original);
-   
   }
   &_card-img-top {
     padding-top: 5%;
@@ -37,13 +36,11 @@
     width: 100%;
     margin: 3%;
     font-size: 14px;
-    
   }
   &_card-title {
     display: flex;
     font-size: map-get($fontsize-mood, size-one);
     text-align: center;
-   
   }
 }
 
@@ -82,5 +79,5 @@
 }
 .breakfast_title {
   display: flex;
-  padding-top: .8%;
+  padding-top: 0.8%;
 }
